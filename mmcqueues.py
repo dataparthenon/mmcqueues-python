@@ -3,7 +3,9 @@ from decimal import Decimal, getcontext
 
 
 SERVICE_RATES = [1.9, 6.3]
-ARRIVAL_RATES = [9, 15, 25, 45, 81, 145, 260, 370]
+ARRIVAL_RATES = [9, 11, 13, 15, 19, 22, 25, 26, 31, 37, 43, \
+                 45, 57, 68, 79, 81, 101, 121, 141, 145, 181, \
+                 217, 253, 260, 325, 370, 390, 455, 463, 555, 648]
 
 
 class MMCQueue:
